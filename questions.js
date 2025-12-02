@@ -4,127 +4,126 @@
 
 const questions = [
   {
-    question: "Lors d’un changement d’état, la température d’un corps pur :",
-    options: ["augmente", "diminue", "reste constante", "varie selon la masse"],
-    bonne_reponse: "reste constante",
-    explication: "Pendant la fusion ou la solidification, l’énergie sert à changer l’état, pas à augmenter la température."
+    question: "Lorsqu’un tissu glisse sur une table de coupe horizontale, la force qui s’oppose au mouvement est :",
+    options: ["la gravité", "la poussée d’Archimède", "le frottement", "la force magnétique"],
+    bonne_reponse: "le frottement",
+    explication: "Le frottement entre le tissu et la table ralentit le mouvement."
   },
   {
-    question: "La chaleur correspond à :",
-    options: ["une température élevée", "un transfert d’énergie", "une masse importante", "une couleur rouge"],
-    bonne_reponse: "un transfert d’énergie",
-    explication: "La chaleur est un transfert d’énergie d’un corps chaud vers un corps froid."
+    question: "Sur un plan incliné, un rouleau de tissu a tendance à :",
+    options: ["rester immobile", "monter seul", "descendre la pente", "tourner sur lui-même sans bouger"],
+    bonne_reponse: "descendre la pente",
+    explication: "La composante du poids parallèle au plan l'entraîne vers le bas."
   },
   {
-    question: "Quelle est l’unité de l’énergie thermique Q ?",
-    options: ["le Watt", "le Joule", "le Kelvin", "le Volt"],
-    bonne_reponse: "le Joule",
-    explication: "Q se mesure en Joule (J)."
+    question: "Quand une couturière pousse un chariot de matériel sur un sol horizontal, le mouvement commence seulement si :",
+    options: ["la poussée est nulle", "la poussée est plus forte que les frottements", "la poussée est égale aux frottements", "les frottements sont plus forts"],
+    bonne_reponse: "la poussée est plus forte que les frottements",
+    explication: "Il faut dépasser les frottements pour mettre le chariot en mouvement."
   },
   {
-    question: "Dans un calorimètre, les échanges de chaleur avec l’extérieur :",
-    options: ["sont importants", "sont négligeables", "dépendent du métal", "raffraichissent l’eau"],
-    bonne_reponse: "sont négligeables",
-    explication: "Un calorimètre limite les pertes."
+    question: "Plus un plan est incliné, plus un rouleau de tissu :",
+    options: ["ralentit", "s’arrête", "accélère", "reste immobile"],
+    bonne_reponse: "accélère",
+    explication: "L’inclinaison augmente la composante du poids qui fait accélérer l’objet."
   },
   {
-    question: "Ajouter 10 g de glace à 20°C dans 250 mL d’eau à 20°C :",
-    options: ["réchauffe l’eau", "refroidit légèrement l’eau", "ne change rien", "fait bouillir l’eau"],
-    bonne_reponse: "refroidit légèrement l’eau",
-    explication: "La glace absorbe de l’énergie pour fondre → l’eau se refroidit."
+    question: "Sur un plan horizontal, un objet continue son mouvement si :",
+    options: ["une force continue agit sur lui", "une force arrête d’agir sur lui", "aucune force ne s’applique", "les frottements augmentent"],
+    bonne_reponse: "une force continue agit sur lui",
+    explication: "Les frottements l’arrêtent si aucune force ne compense."
   },
   {
-    question: "Lors de la fusion de la glace, l’énergie fournie sert à :",
-    options: ["augmenter la température", "changer l’état", "réduire la masse", "faire bouillir l’eau"],
-    bonne_reponse: "changer l’état",
-    explication: "Pendant la fusion, l’énergie sert uniquement à casser les liaisons solides."
+    question: "Lorsqu’un rouleau de tissu roule moins bien sur une surface rugueuse, c’est parce que :",
+    options: ["la gravité augmente", "le frottement augmente", "la masse diminue", "la vitesse augmente"],
+    bonne_reponse: "le frottement augmente",
+    explication: "Une surface rugueuse crée davantage de frottement."
   },
   {
-    question: "La température finale dans un calorimètre après ajout de glace dépend principalement :",
-    options: ["du volume de glace", "de la couleur du calorimètre", "du bruit ambiant", "de la forme du glaçon"],
-    bonne_reponse: "du volume de glace",
-    explication: "Plus il y a de glace, plus il faut d’énergie pour la faire fondre."
+    question: "Pour faciliter le déplacement d’un mannequin de couture, on peut :",
+    options: ["augmenter le frottement", "réduire le frottement", "le poser sur un plan incliné", "augmenter sa masse"],
+    bonne_reponse: "réduire le frottement",
+    explication: "Des roulettes ou un sol lisse réduisent les frottements."
   },
   {
-    question: "Quel phénomène se produit lorsqu'une soudure est refroidie trop vite ?",
-    options: ["déformation ou fissure", "augmentation de la résistance", "polissage automatique", "aucun effet"],
-    bonne_reponse: "déformation ou fissure",
-    explication: "Un refroidissement brutal crée des contraintes internes."
+    question: "Lorsqu’on tire un tissu sur un plan incliné pour le remonter, il faut fournir :",
+    options: ["moins de force", "autant de force que son poids total", "une force supérieure au poids projeté sur la pente", "aucune force"],
+    bonne_reponse: "une force supérieure au poids projeté sur la pente",
+    explication: "Il faut compenser la partie du poids qui tire l’objet vers le bas."
   },
   {
-    question: "L’énergie massique de fusion de la glace correspond à :",
-    options: ["l’énergie nécessaire pour chauffer la glace de 1°C", "l’énergie pour faire fondre 1 kg de glace", "la température de la glace", "la masse de la glace"],
-    bonne_reponse: "l’énergie pour faire fondre 1 kg de glace",
-    explication: "Elle représente l’énergie à fournir pour passer de solide à liquide."
+    question: "Un mannequin de couture reste immobile sur un plan horizontal lorsque :",
+    options: ["les forces sont équilibrées", "la poussée est plus forte que les frottements", "le poids augmente", "le sol est glissant"],
+    bonne_reponse: "les forces sont équilibrées",
+    explication: "Si aucune force ne l'entraîne, il reste immobile."
   },
   {
-    question: "Lors d’un refroidissement, l’énergie thermique :",
-    options: ["arrive du froid", "est perdue vers l’extérieur", "est transférée du corps chaud vers le corps froid", "augmente spontanément"],
-    bonne_reponse: "est transférée du corps chaud vers le corps froid",
-    explication: "La chaleur se déplace toujours du chaud vers le froid."
+    question: "Lorsque l’on incline légèrement la table de repassage, un fer posé dessus :",
+    options: ["reste forcément immobile", "se déplace selon l’inclinaison", "monte la pente", "tourne sur lui-même"],
+    bonne_reponse: "se déplace selon l’inclinaison",
+    explication: "La composante du poids le fait glisser vers le bas."
   },
   {
-    question: "La capacité calorifique massique de l’eau signifie que :",
-    options: ["l’eau chauffe vite", "il faut beaucoup d’énergie pour augmenter sa température", "l’eau bout facilement", "elle absorbe peu de chaleur"],
-    bonne_reponse: "il faut beaucoup d’énergie pour augmenter sa température",
-    explication: "L’eau stocke beaucoup d’énergie. D’où l’efficacité du refroidissement à l’eau pour limiter les déformations."
+    question: "Si un chariot chargé de tissus a du mal à démarrer, c’est généralement parce que :",
+    options: ["sa masse est faible", "les frottements statiques sont élevés", "la roue est trop légère", "la pente est trop faible"],
+    bonne_reponse: "les frottements statiques sont élevés",
+    explication: "Le frottement statique s’oppose au début du mouvement."
   },
   {
-    question: "Le principe du calorimètre est utilisé en atelier pour :",
-    options: ["mesurer des tensions électriques", "limiter les pertes thermiques", "colorer les métaux", "souffler de l’air"],
-    bonne_reponse: "limiter les pertes thermiques",
-    explication: "Limiter les échanges thermiques permet de contrôler les températures."
+    question: "Plus la masse d’un rouleau de tissu est grande, plus :",
+    options: ["il glisse facilement", "il accélère vite sur un plan horizontal", "il est difficile à mettre en mouvement", "il est insensible au frottement"],
+    bonne_reponse: "il est difficile à mettre en mouvement",
+    explication: "Une masse plus grande demande plus de force pour dépasser les frottements."
   },
   {
-    question: "Une tôle chauffée se dilate. Cela signifie que :",
-    options: ["sa masse augmente", "sa longueur augmente", "sa couleur change", "elle devient plus légère"],
-    bonne_reponse: "sa longueur augmente",
-    explication: "La dilatation thermique allonge les pièces. En chaudronnerie : prévoir le retrait au refroidissement."
+    question: "Quand un tissu est tiré avec une force constante sur une table horizontale, la vitesse devient constante lorsque :",
+    options: ["la force devient nulle", "la force est égale au frottement dynamique", "la masse augmente", "le plan est incliné"],
+    bonne_reponse: "la force est égale au frottement dynamique",
+    explication: "L’équilibre des forces donne un mouvement à vitesse constante."
   },
   {
-    question: "Pourquoi mesure-t-on la température pendant un soudage ?",
-    options: ["pour éviter l’oxydation", "pour contrôler l’apport de chaleur", "pour décorer la pièce", "pour mesurer la masse"],
-    bonne_reponse: "pour contrôler l’apport de chaleur",
-    explication: "L’apport thermique influence la qualité du cordon. Une surchauffe crée des défauts."
+    question: "Sur un plan incliné, un rouleau de tissu plus lourd :",
+    options: ["descend plus lentement", "descend à la même accélération (hors frottements)", "reste immobile", "monte la pente"],
+    bonne_reponse: "descend à la même accélération (hors frottements)",
+    explication: "Sans frottements, la masse n’influence pas l’accélération d’une chute ou d’une descente."
   },
   {
-    question: "Lors d’une solidification, l’énergie thermique :",
-    options: ["est absorbée", "est libérée", "reste constante", "disparaît"],
-    bonne_reponse: "est libérée",
-    explication: "Un corps libère de l’énergie en solidifiant."
+    question: "Pour empêcher un mannequin de glisser sur un plan incliné, il faut :",
+    options: ["réduire les frottements", "ajouter un revêtement antidérapant", "soulever le mannequin", "augmenter l’inclinaison"],
+    bonne_reponse: "ajouter un revêtement antidérapant",
+    explication: "Cela augmente les frottements et empêche le glissement."
   },
   {
-    question: "Une pièce métallique froide placée sur une pièce chaude :",
-    options: ["chauffe la pièce chaude", "reste froide", "reçoit de la chaleur", "absorbe la masse"],
-    bonne_reponse: "reçoit de la chaleur",
-    explication: "La chaleur se transfère vers la pièce froide."
+    question: "Quand on pousse un chariot de couture en descente, celui-ci accélère car :",
+    options: ["le poids aide au mouvement", "le poids s’annule", "les frottements disparaissent", "la masse diminue"],
+    bonne_reponse: "le poids aide au mouvement",
+    explication: "La composante du poids dans la pente augmente la force qui fait avancer le chariot."
   },
   {
-    question: "Pourquoi agite-t-on l’eau dans un calorimètre ?",
-    options: ["pour dissoudre la glace", "pour homogénéiser la température", "pour accélérer l’évaporation", "pour refroidir le calorimètre"],
-    bonne_reponse: "pour homogénéiser la température",
-    explication: "L’agitation répartit la chaleur uniformément."
+    question: "Une boîte de bobines placée sur une table inclinée reste immobile si :",
+    options: ["la pente est très forte", "le frottement est supérieur à la force qui la fait glisser", "la masse est faible", "le poids est nul"],
+    bonne_reponse: "le frottement est supérieur à la force qui la fait glisser",
+    explication: "Si les frottements sont trop forts, l’objet n'est pas entraîné."
   },
   {
-    question: "Que devient la masse lors d’un changement d’état ?",
-    options: ["elle augmente", "elle diminue", "elle reste la même", "elle disparaît"],
-    bonne_reponse: "elle reste la même",
-    explication: "La masse se conserve."
+    question: "Si l’on réduit les frottements entre un tissu et une table (par exemple en utilisant du papier sulfurisé), alors :",
+    options: ["il devient plus difficile à déplacer", "il glisse plus facilement", "il ne peut plus s’arrêter", "il devient plus lourd"],
+    bonne_reponse: "il glisse plus facilement",
+    explication: "Réduire les frottements diminue la force nécessaire au mouvement."
   },
   {
-    question: "Quelle est la conséquence d’un chauffage non uniforme ?",
-    options: ["aucun effet", "déformations", "refroidissement rapide", "augmentation de masse"],
-    bonne_reponse: "déformations",
-    explication: "Les différences de dilatation entraînent des déformations. Risque de voilement en chaudronnerie."
+    question: "Sur un sol rugueux, un mannequin à roulettes aura tendance à :",
+    options: ["aller plus vite", "ralentir", "ne pas subir de frottements", "se soulever légèrement"],
+    bonne_reponse: "ralentir",
+    explication: "Le sol rugueux augmente le frottement et freine le mouvement."
   },
   {
-    question: "Pourquoi utilise-t-on un isolant thermique sur une pièce soudée ?",
-    options: ["pour garder la chaleur et éviter les contraintes", "pour décorer", "pour changer la masse", "pour accélérer la fusion"],
-    bonne_reponse: "pour garder la chaleur et éviter les contraintes",
-    explication: "Limiter le refroidissement brutal réduit les fissures."
+    question: "Si l’on pousse un chariot de couture vers le haut d’une rampe, il finira par s’arrêter car :",
+    options: ["sa masse augmente", "la gravité s’oppose au mouvement", "les frottements disparaissent", "la pente devient horizontale"],
+    bonne_reponse: "la gravité s’oppose au mouvement",
+    explication: "Le poids agit vers le bas et freine le chariot jusqu'à l'arrêt."
   }
 ];
-
 /* ============================================================
-   =================== FIN DES QUESTIONS =======================
+   ====================  FIN DES QUESTIONS  ==================
    ============================================================ */
